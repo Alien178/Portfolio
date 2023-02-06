@@ -58,6 +58,11 @@ h1:hover {
     text-decoration: none;
     font-size: 20px;
     background-color: var(--primary);
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    -o-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out;
+
     /* border-radius: 10px; */
 }
 
