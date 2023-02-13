@@ -7,23 +7,55 @@
         <title>Home</title>
         <link rel="stylesheet" href="style.css" />
     </head>
-    <body>
-        <div class="navbar">
-            <div class="container">
-                <h1>Aayush Kokate</h1>
-                <div class="menu">
-                    <a href="">Home</a>
-                    <a href="">About</a>
-                    <a href="">Skills</a>
-                    <a href="">Project</a>
-                </div>
 
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+    <body>
+        <header class="banner" role="banner">
+            <nav class="navbar" role="navigation" aria-label="menu">
+                <h1 class="title" href="#">Portfolio</h1>
+                <ul class="menu">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Skills</a></li>
+                    <li><a href="">DPEA</a></li>
+                    <li class="dropdown">
+                        <a href="#">Projects</a>
+                        <!--Start of Dropdown-->
+                        <ul class="dropdown-nav">
+                            <li><a href="">Web</a></li>
+                            <li><a href="">Apps</a></li>
+                            <li><a href="" class="last-choice">Games</a></li>
+                            <!-- <li><a href=""></a></li> -->
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- <div class="container">
+        <nav class="navbar" role="navigation">
+            <h1 class="title">Portfolio</h1>
+            <div class="menu">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Skills</a>
+                <div class="dropdown">
+                    <a href="" class="dropbtn">Projects</a>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
                 </div>
             </div>
+
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <div class="my_name">
+            <h1>Aayush Kokate</h1>
         </div>
+    </div> -->
     </body>
 </html>
